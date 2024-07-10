@@ -222,6 +222,7 @@ nav a{
 
 .insp p{
     color: rgb(13, 19, 33);
+    opacity: 0.7;
     width: 852px;
     height: 52px;
     font-size: 16px;
@@ -254,7 +255,6 @@ nav a{
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
-
     margin-top: 151px;
 }
 .target-head{
@@ -471,6 +471,7 @@ flex-grow: 0;
     
     border-radius: 16px;
     margin-top: 100px;
+    margin-bottom: 79px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(../assets/handshake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -536,30 +537,38 @@ flex-grow: 0;
 /* footer */
 
 footer{
-/* Frame 21 */
-    position: absolute;
-    max-width: 1440px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 150px 32px 150px;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.03);
-    align-items: center;
-}
-.f{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 42px;
+    /* Frame 21 */
+position: absolute;
+width: 1140px;
+height: 80px;
+left: 0;
+top: 5145px;
+/* Auto layout */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+margin-top: 80px;
 }
 .footer-text{
+    /* An Open Commitment by Awlad Hossain */
+    position: static;
+    width: 490px;
+    height: 24px;
+    /* Auto layout */
+    padding: 0px;
+    /* Inside Auto Layout */
+    margin: 0px 16px;
     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    margin-left: 47px;
-    margin-right: 520px;
+}
+.F-icons{
+    margin-left: 40px;
 }

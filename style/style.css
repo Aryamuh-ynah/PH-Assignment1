@@ -14,7 +14,26 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin: 38px 180px;
+}
+nav button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    width: 228px;
+    height: 58px;
+    opacity: 0.8;
+    /* text */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 
 /* Banner */
@@ -22,6 +41,8 @@ nav{
     background-image: url(../assets/Hero-bg.png);
     max-width: 1920px;
     height: 652px;
+    border-top: 3px dashed rgb(199, 197, 197);
+    border-bottom: 3px dashed rgb(199, 197, 197);
     }
 
 .intro{
@@ -40,7 +61,7 @@ nav{
     /* Auto layout */
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 26px 0 44px 0;
     }
 .coder{
     /* Group */
@@ -48,7 +69,17 @@ nav{
     height: 240px;
     margin: 0 auto;
 }
-
+.banner-Desc{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-align: center;
+}
 .bnt-contact{
     /* Frame 2 */
     position: static;
@@ -66,4 +97,100 @@ nav{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* why-web-development */
+
+.why-web-development{
+    width: 1140px;
+    height: 1395px;
+    /* Auto layout */
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    margin: 0 auto;
+    margin-top: 74px;
+
+}
+
+.why{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 946px;
+}
+.why p{
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+}
+
+.code-to-cng{
+
+    /* Frame 8 */
+    position: static;
+    width: 946px;
+    height: 280px;
+    /* Auto layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    /* Inside Auto Layout */
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0 auto;
+}
+.text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 500px;
+}
+.text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    max-width: 500px;
+    margin-top: 16px;
+}
+.text button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.code-to-cng img{
+    width: 274.17px;
+    height: 240px;
 }

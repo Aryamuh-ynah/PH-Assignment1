@@ -127,7 +127,6 @@ nav a{
 }
 .why p{
     color: rgb(13, 19, 33);
-
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -193,4 +192,68 @@ nav a{
 .code-to-cng img{
     width: 274.17px;
     height: 240px;
+}
+
+/* My inspiration */
+
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    /* Auto layout */
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+.insp h3{
+    color: rgb(13, 19, 33);
+    width: 852px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.insp p{
+    color: rgb(13, 19, 33);
+    width: 852px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.vdo{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    padding: 32px 48px;
+
+}
+
+/* Targets */
+
+.targets{
+    width: 1140px;
+    height: 460px;
+    /* Auto layout */
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid red;
 }

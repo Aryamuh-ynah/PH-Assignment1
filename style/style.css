@@ -101,7 +101,7 @@ nav a{
 
 .why-web-development{
     width: 1140px;
-    height: 1295px;
+    height: 1265px;
     /* Auto layout */
     display: flex;
     
@@ -540,7 +540,7 @@ footer{
     /* Frame 21 */
 position: absolute;
 width: 1140px;
-height: 80px;
+height: 70px;
 left: 0;
 top: 5145px;
 /* Auto layout */
@@ -568,7 +568,4 @@ margin-top: 80px;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-}
-.F-icons{
-    margin-left: 40px;
 }

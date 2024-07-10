@@ -101,7 +101,7 @@ nav a{
 
 .why-web-development{
     width: 1140px;
-    height: 1265px;
+    height: 1295px;
     /* Auto layout */
     display: flex;
     
@@ -539,7 +539,7 @@ flex-grow: 0;
 footer{
     /* Frame 21 */
 position: absolute;
-width: 1140px;
+width: 1218px;
 height: 70px;
 left: 0;
 top: 5145px;
